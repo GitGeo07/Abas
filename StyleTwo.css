@@ -1,0 +1,20 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+}
+text {
+    text-align: center;
+    text-autospace: auto;
+    font-size: 90px;
+}
+
+body{
+    background-color: cornflowerblue;
+}
