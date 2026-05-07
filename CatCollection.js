@@ -1,7 +1,7 @@
 let cards = document.querySelector('.cards')
 
 let pics = ["Maxvell.gif",'CatDance.gif','cat-catfish.gif','Nword.png','SillyWilly.jpg','Xlebarsick.jpg','Swearing.jpg','unnamed.jpg','tenor.gif']
-let texts = ['untitled', 'untitled']
+let texts = ['Макс', 'Танцующий Андрей', "Виктор", "Слава(не черный)", "Филя", "Люся", "Коля", "Олег", "Питрович"]
 
 for (let i = 0; i < pics.length; i+=1) {
     let img = document.createElement('img');
