@@ -4,5 +4,61 @@
 }
 
 body{
-  background-color: mediumseagreen;
+  background-color: #dbeafe;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:20px 50px;
+
+  background:linear-gradient(
+          90deg,
+          #ffb36b,
+          #ff8c42
+  );
+
+  box-shadow:0 4px 15px rgba(0,0,0,0.2);
+
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.logo{
+  font-size:32px;
+  font-weight:bold;
+  color:white;
+
+  text-shadow:2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.nav-links{
+  display:flex;
+  gap:30px;
+
+  list-style:none;
+}
+
+.nav-links a{
+  text-decoration:none;
+
+  color:white;
+  font-size:20px;
+  font-weight:bold;
+
+  transition:0.3s;
+
+  padding:8px 14px;
+  border-radius:12px;
+}
+
+.nav-links a:hover{
+  background:rgba(255,255,255,0.25);
+
+  transform:translateY(-2px);
+
+  box-shadow:0 3px 10px rgba(0,0,0,0.2);
 }
